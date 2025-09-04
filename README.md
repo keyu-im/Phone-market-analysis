@@ -1,7 +1,6 @@
 # Phone-market-analysis
 一、简介：
-1.基于开源数据，对智能手机市场进行价格区间、配置和品牌分布的分析，揭示消费者偏好与厂商竞争策略。
-2.An open-source data analysis of the Indian smartphone market, focusing on price segments, hardware configurations, and brand competition to reveal consumer preferences and vendor strategies.
+基于开源数据，对智能手机市场进行价格区间、配置和品牌分布的探索性数据分析（EDA）。项目使用 Python、Pandas、Matplotlib、Seaborn 等工具完成数据清洗、可视化与统计分析，揭示了消费者在价格与配置上的偏好，以及不同厂商的竞争策略，并给出自己对厂商拓展增量的建议。
 
 二、市场价格层级分析
 1.下沉市场（0–25,000 INR）：占据市场最大份额，大部分品牌集中在此区间，说明消费者对中低价位手机需求旺盛。
@@ -9,7 +8,7 @@
 3.高端市场（50,000+ INR）：主要由 Apple 独占，价格跨度广，覆盖多个市场层级。
 **结论：价格是影响消费者购买决策的关键因素。低价策略最有效，而高端品牌通过全价位布局获得差异化竞争优势。
 
-三、配置层级分析（RAM 与内存）
+三、配置层级分析
 1.RAM：4–8GB 的中等配置占绝大部分市场，8–12GB 的中高端配置仅占少量市场，主要由 IQOO 和 OnePlus 主导。
 2.内存（inbuilt）：50–150GB 的机型为第一梯队市场，高于 150GB 的高端机型占比很少，Apple、IQOO 和 OnePlus 为代表。
 3.价格关联性：RAM 和内存与价格呈中等正相关，说明内存和储存是厂商主要的溢价领域；电池容量和屏幕尺寸与价格关联性较弱，厂商在这些方面有更多灵活调整空间。
